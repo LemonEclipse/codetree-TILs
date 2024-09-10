@@ -5,7 +5,9 @@ int main() {
     scanf("%d %d", &a,&b);
     printf("%d ", a);
     while(a<b){
-        
+        if(a>b){
+            break;
+        }
        
         if(a%2==1){
             a*=2;
