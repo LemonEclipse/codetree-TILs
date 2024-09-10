@@ -9,7 +9,7 @@ int main() {
             break;
         }
        
-        if(a%2==1){
+        else if(a%2==1){
             a*=2;
             printf("%d ", a);
         }
