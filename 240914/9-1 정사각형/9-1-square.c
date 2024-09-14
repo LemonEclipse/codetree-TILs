@@ -9,7 +9,7 @@ int main() {
 		for (j = 0; j < n; j++) {
 			printf("%d", cnt);
             if(cnt==1){
-                cnt=9;
+                cnt=10;
             }
 			cnt--;
 		}
