@@ -17,7 +17,7 @@ int main() {
                 printf("%d ", cnt+1);
                 cnt+=2;
             }
-            cnt+=1;  /* 이게 중요*/
+          
         }
 		printf("\n");
 	}
