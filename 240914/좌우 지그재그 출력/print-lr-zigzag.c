@@ -13,12 +13,12 @@ int main() {
             }
         }
         else{
-            int k=cnt+n-1;
+            int k=cnt+n-1; /* 이게 중요*/
             for(j=k;j>=cnt;j--){
                 printf("%d ", j);
                 
             }
-            cnt=k+1;
+           
         }
 		printf("\n");
 	}
