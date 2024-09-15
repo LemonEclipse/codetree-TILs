@@ -17,7 +17,7 @@ int main() {
             cnt++;
         }
         printf("%d\n", cnt);
-        cnt=1;
+        cnt=0;
     }    
 
     
