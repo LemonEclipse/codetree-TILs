@@ -6,7 +6,8 @@ int main() {
     scanf("%d", &n);
 
     for(i=1;i<=n;i++){
-        scanf("%d", &n);
+        int a;
+        scanf("%d", &a);
         while (n != 1) {
             if (n % 2 == 0) {  
                 n /= 2;
