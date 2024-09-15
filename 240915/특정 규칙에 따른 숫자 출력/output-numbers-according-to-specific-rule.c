@@ -10,10 +10,11 @@ int main() {
         for(j=n-i+1;j>=1;j--){
             printf("%d ", cnt);
             cnt++;
-        }
-        if(cnt>9){
+            if(cnt>9){
             cnt=1;
         }
+        }
+        
         printf("\n");
         
     }
