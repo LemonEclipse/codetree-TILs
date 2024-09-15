@@ -7,7 +7,7 @@ int main() {
     for(i=start;i<=end;i++){
         int sum=0;
         for(j=1;j<=i;j++){
-            if(i%j==0 &&i!=j){
+            if(i%j==0 &&j!=i){
                 sum+=1;
             }
         }
