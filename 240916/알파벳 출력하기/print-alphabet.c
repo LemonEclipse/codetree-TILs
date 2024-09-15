@@ -7,6 +7,9 @@ int main() {
         for(j=1;j<=i;j++){
             printf("%c", cnt);
             cnt+=1;
+            if(cnt>91){
+                cnt=65;
+            }
         }
         printf("\n");
     }
