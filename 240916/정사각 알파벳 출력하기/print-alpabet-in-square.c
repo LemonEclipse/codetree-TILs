@@ -7,7 +7,7 @@ int main() {
         for(j=65;j<=n+64;j++){
             printf("%c", i+j-1);
         }
-        printf("\n")
+        printf("\n");
     }
     return 0;
 }
