@@ -1,16 +1,21 @@
 #include <stdio.h>
 
 int main() {
+    
+    int arr[10];
+    int sum = 0;
+    int cnt = 0;
+	for(int i = 0; i < 10; i++) {
+        scanf("%d", &arr[i]);
+    }
+	for(int i = 0; i < 10; i++) {
+        if(arr[i] >= 250) 
+			break;
+        sum += arr[i];
+        cnt++;
+    }
+	double avg = (double)sum / cnt;
+	printf("%d %.1lf", sum, avg);
 
-	int arr[10];
-	int val, sum_val;
-	sum_val = 0;
-	for (int i = 0; i < 10; i++) {
-		scanf("%d", &arr[i]);
-		sum_val += arr[i];
-	}
-	printf("%d %.1lf", sum_val,sum_val/10);
-
-	return 0;
-
+    return 0;
 }
