@@ -16,7 +16,7 @@ int main() {
             }
         }
     }
-    for(i=1;i<=10;i++){
+    for(i=10;i>=1;i--){
         printf("%d - %d\n", i*10, c_arr[i]);
     }
     return 0;
