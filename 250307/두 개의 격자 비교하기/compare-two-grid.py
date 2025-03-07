@@ -1,4 +1,4 @@
-N,M = map(int,input().split())
+N,M = map(int,input().split(" "))
 
 arr_1 = [
     [0 for _ in range(M)]
@@ -9,11 +9,11 @@ arr_2 = [
     for _ in range(N)
 ]
 arr_1 = [
-    list(map(int,input().split()))
+    list(map(int,input().split(" ")))
     for _ in range(4)
 ]
 arr_2 = [
-    list(map(int,input().split()))
+    list(map(int,input().split(" ")))
     for _ in range(4)
 ]
 
