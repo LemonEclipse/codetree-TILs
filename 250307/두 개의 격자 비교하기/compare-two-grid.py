@@ -10,11 +10,11 @@ arr_2 = [
 ]
 arr_1 = [
     list(map(int,input().split(" ")))
-    for _ in range(4)
+    for _ in range(M)
 ]
 arr_2 = [
     list(map(int,input().split(" ")))
-    for _ in range(4)
+    for _ in range(M)
 ]
 
 for i in range(N):
