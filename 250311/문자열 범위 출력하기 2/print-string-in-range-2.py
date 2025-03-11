@@ -6,7 +6,7 @@ num = int(input())
 
 if num>length:
 	for i in range(length-1, -1, -1):
-		print(a[i-1], end = "")
+		print(a[i], end = "")
 else:
 	for i in range(length-1, length-num-1,-1):
-		print(a[i-1], end = "")
+		print(a[i], end = "")
