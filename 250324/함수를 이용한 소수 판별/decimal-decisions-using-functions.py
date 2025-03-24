@@ -4,7 +4,7 @@ a, b = map(int, input().split())
 def dec_sum(a,b):
     Sum = 0
     if a==b:
-        return = 0
+        return 0
     for i in range(a,b+1):
         Bool = True
         for j in range(2,i):
