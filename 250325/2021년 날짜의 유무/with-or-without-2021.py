@@ -20,12 +20,12 @@ def Date(M,D):
                 return "No"
     elif M<=12:
         if M%2==0:
-            if D>0 and D=<31:
+            if D>0 and D<=31:
                 return "Yes"
             else:
                 return "No"
         else:
-            if D>0 and D=<30:
+            if D>0 and D<=30:
                 return "Yes"
             else:
                 return "No"
