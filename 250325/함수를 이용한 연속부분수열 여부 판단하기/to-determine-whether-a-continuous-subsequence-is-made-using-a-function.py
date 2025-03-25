@@ -23,6 +23,8 @@ def L(fir,sec):
 
 
 result = L(a,b)
+if(len(a)<len(b)):
+    print("No")
 if result:
     print("Yes")
 else:
