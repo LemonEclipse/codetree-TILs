@@ -7,6 +7,8 @@ def Date(M,D):
         if M%2==0:
             if M==2 and D<=28 and D>=1:
                 return "Yes"
+            else:
+                return "No"
             if D>0 and D<31:
                 return "Yes"
             else:
