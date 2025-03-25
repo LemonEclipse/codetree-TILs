@@ -16,7 +16,7 @@ def Date(M,D):
                 return "Yes"
             else:
                 return "No"
-    else:
+    elif M<=12:
         if M%2==0:
             if D>0 and D<31:
                 return "Yes"
@@ -27,7 +27,8 @@ def Date(M,D):
                 return "Yes"
             else:
                 return "No"
-
+    else:
+        return "No"
 result = Date(M,D)
 
 print(result)
