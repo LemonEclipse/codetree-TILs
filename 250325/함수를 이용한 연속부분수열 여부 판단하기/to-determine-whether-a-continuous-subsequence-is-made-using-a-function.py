@@ -21,10 +21,10 @@ def L(fir,sec):
     else:
         return False
 
-
-result = L(a,b)
 if(len(a)<len(b)):
     print("No")
+result = L(a,b)
+
 if result:
     print("Yes")
 else:
