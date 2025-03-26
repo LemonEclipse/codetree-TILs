@@ -3,7 +3,7 @@ A = input()
 # Please write your code here.
 def up_two_alp(A):
     for i in range(len(A)):
-        if A[0] != A[1]:
+        if A[0] != A[i]:
             return True
     return False
 
