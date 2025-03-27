@@ -5,7 +5,7 @@ pattern = input()
 
 def index():
     for i in range(len(text)-len(pattern)+1):
-        if text[i:len(text)+i] == pattern:
+        if text[i:len(pattern)+i] == pattern:
             return i
     return -1
 
