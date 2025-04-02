@@ -10,7 +10,7 @@ for _ in range(N):
     arr.append(home(a,b,c))
 result = arr[0]
 for i in arr[1:]:
-    if i.name>result.num:
+    if i.name>result.name:
         result = i
 
 print("name",result.name)
