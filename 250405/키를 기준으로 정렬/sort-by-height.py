@@ -1,17 +1,19 @@
-class Sort:
-    def __init__(self, name, heigth, weight):
+class Score:
+    def __init__(self, name, kor, eng, math):
         self.name = name
-        self.heigth = heigth
-        self.weight = weight
+        self.kor = kor
+        self.eng = eng
+        self.math = math
 
 N = int(input())
 arr = []
 for _ in range(N):
-    name, heigth, weight = input().split()
-    heigth = int(heigth)
-    weight = int(weight)
-    arr.append(Sort(name, heigth, weight))
+    name, kor, eng, math = input().split()
+    kor = int(kor)
+    eng = int(eng)
+    math = int(math)
+    arr.append(Score(name, kor, eng, math))
 
-arr.sort(key=lambda x: x.heigth)
-for person in arr:
-    print(person.name, person.heigth, person.weight)
+arr.sort(key=lambda x: x.kor, x.eng, x.math)
+for name,kor,eng,math in arr:
+    print(name,kor,eng,math)
