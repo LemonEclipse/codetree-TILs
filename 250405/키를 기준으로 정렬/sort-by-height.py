@@ -1,5 +1,5 @@
-class Sort(self,name,heigth,weight):
-    def __init__(self):
+class Sort:
+    def __init__(self,name,heigth,weight):
         self.name = name
         self.heigth = heigth
         self.weight = weight
@@ -12,6 +12,6 @@ for _ in range(N):
     weight = int(weight)
     arr.append(Sort(name,heigth,weight))
 
-arr.sort(key=lambda x: x[1])
-for n,h,w in arr:
-    print(n,h,w)
+arr.sort(key=lambda x: x.heigth)
+for person in arr:
+    print(person.name, person.height, person.weight)
