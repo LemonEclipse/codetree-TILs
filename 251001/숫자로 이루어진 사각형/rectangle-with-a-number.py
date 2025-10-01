@@ -5,7 +5,7 @@ def Code_tree(n):
     N = 0
     for _ in range(n):
         for _ in range(n):
-            N++
+            N+=1
             print("N", end = ' ' )
             if N == 10 :
                 N == 1
