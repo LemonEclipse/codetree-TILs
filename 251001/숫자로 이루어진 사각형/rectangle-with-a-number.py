@@ -11,5 +11,5 @@ def Code_tree(n):
                 N == 1
         print()
 
-Code_tree()
+Code_tree(n)
             
